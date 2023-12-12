@@ -32,10 +32,6 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-     <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
     <types>
         <members>*</members>
         <name>Profile</name>
@@ -44,9 +40,17 @@
         <members>*</members>
         <name>PermissionSet</name>
     </types>
-    <types> 
-        <members>*</members>
-        <name>Users</name>
+    <types>
+		<members>UserInteface</members>
+		<name>Settings</name>
+	</types>
+    <types>
+        <members>Compliance Reports/Opp_Field_History_Last_7_Days</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>UserManagement</members>
+        <name>Settings</name>
     </types>
     <version>58.0</version>
 </Package>
